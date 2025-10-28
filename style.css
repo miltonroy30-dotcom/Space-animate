@@ -1,0 +1,45 @@
+body{
+ background: url(./download\ \(2\).jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow: hidden;
+}
+#animate{
+ height: 250px;
+ animation-name: animate;
+ animation-duration: 4s;
+ transform: rotate(30dg);}
+
+@keyframes animate{
+from{
+ top: 0%; 
+ left: 0%; 
+ transform: rotate(30dg); 
+}
+to{
+    top: 300%;
+    left: 930%;
+    transform: rotate(360dg)
+}    
+}
+#rocket{
+height: 250px;
+ animation-name: rocket;
+ animation-duration: 4s;
+ transform: rotate(30dg);}
+
+ @keyframes rocket{
+  from{
+ top: 300%; 
+ left: 0%; 
+  
+}
+to{
+    top: 0%;
+    left: 1000%;
+    height: 30px;
+ }
+
+}
+  
+  
